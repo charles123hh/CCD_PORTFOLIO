@@ -1,0 +1,4 @@
+.border-asterisk {
+  border: 8px solid black;
+  border-image: url(./../../public/image/asterisk.png) 36% repeat;
+}
