@@ -1,13 +1,13 @@
 import { Box, Text } from "@chakra-ui/react";
 
-const Projects = () => {
+const Contact = () => {
   return (
     <Box p={3} m={3} pt={0}>
        <Text className="menu">
-         <Text ml={3} bg="black" as="b">Projects</Text>
+         <Text ml={3} bg="black" as="b">Contact</Text>
       </Text>
     </Box>
   );
 };
 
-export default Projects;
+export default Contact;
