@@ -1,17 +1,14 @@
 import { Box, Text } from "@chakra-ui/react";
 
-const Home = () => {
+const Banner = () => {
   return (
-    <Box p={3} m={3} pt={0} align="">
-        <Text as="pre" fontWeight="bold" color="yellow">
-             &nbsp;______     ______     _____<br/>
-            /\  ___\   /\  ___\   /\  __-.<br/>
-            \ \ \____  \ \ \____  \ \ \/\ \<br/>
-             &nbsp;\ \_____\  \ \_____\  \ \____-<br/>
-              &nbsp;&nbsp;\/_____/   \/_____/   \/____/<br/>
-        </Text>
+    <Box p={3} m={3} pt={0} pb={0}  fontWeight="bold" >
+        <Text as="pre">         /\_/\</Text>
+        <Text as="pre">    ____/ o o \</Text>
+        <Text as="pre">  /~____  =ø= /</Text>
+        <Text as="pre"> (______)__m_m)</Text>
     </Box>
   );
 };
 
-export default Home;
+export default Banner;
