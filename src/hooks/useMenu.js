@@ -19,6 +19,9 @@ const useMenu = () => {
             case '4':
                 navigate({pathname: "/i/love"});
             break;
+            case '404':
+                navigate({pathname: "/404"});
+            break;
             default :
                 navigate({pathname: "/"});
             break;
