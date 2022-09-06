@@ -7,8 +7,9 @@ const Footer = (props) => {
 
   return (
     <Box p={3} m={3}>
-        <Text>Hello, I'm a programmer based in the Philippines.</Text>
-        <Text>  &copy; {new Date().getFullYear()} <Link onClick={(event) => setPage('')} className="link-underline">CCD</Link>. All Rights Reserved.</Text>
+        <Text>Hello, I'm a programmer based in Philippines.</Text>
+         <Text mt={2}><Link onClick={(event) => setPage('')}>CCD</Link> [Version 06.10.1997.25]</Text>
+        <Text>© {new Date().getFullYear()}  All Rights Reserved.</Text>
     </Box>
   );
 };

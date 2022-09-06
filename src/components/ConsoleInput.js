@@ -1,4 +1,4 @@
-import { Box, Text, Input } from "@chakra-ui/react";
+import { Box, Text, InputGroup, InputLeftElement, Input } from "@chakra-ui/react";
 
 import useMenu from "../hooks/useMenu";
 
@@ -14,7 +14,14 @@ const ConsoleInput = (props) => {
   return (
     <Box p={3} m={3}>
          <Text >Please select an option to continue: </Text>
-         <Input autoFocus onKeyDown={(event) => HandleKeyEvent(event)} size="sm" variant='unstyled' placeholder='ex. 0' />
+          <InputGroup size="sm">
+             <InputLeftElement
+               pointerEvents='none'
+               fontSize='sm'
+               children='~'
+             />
+             <Input autoFocus onKeyDown={(event) => HandleKeyEvent(event)} border="none"  fontSize="sm" placeholder='ex. 0'/>
+           </InputGroup>
     </Box>
   );
 };
