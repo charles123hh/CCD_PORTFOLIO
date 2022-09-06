@@ -9,3 +9,8 @@
    line-height: 0em;
    margin: 10px 0px 20px;
 }
+
+.link-underline {
+  text-decoration-line: underline !important;
+  text-decoration-style: wavy !important;
+}
