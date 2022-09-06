@@ -28,7 +28,7 @@ const Home = (props) => {
         </Text>
         <Text>
             [4]&nbsp;
-            <Text as={Link} onClick={(event) => setPage('4')}>I <Text as="b" color="red">♥</Text></Text>
+            <Text as={Link} onClick={(event) => setPage('4')}>I <Text as="small" color="red" fontWeight="bold">❤</Text></Text>
         </Text>
         <Text>[5] Dark | Light</Text>
     </Box>
