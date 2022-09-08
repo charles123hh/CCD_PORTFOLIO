@@ -1,11 +1,10 @@
 import { Box, Text } from "@chakra-ui/react";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     <Box p={3} m={3} pt={0}>
-        <Text className="menu">
-           <Text ml={3} bg="black" as="span">Bio</Text>
-        </Text>
+        <Header bg="black" text="Bio" />
         <Text as="b">
             Charles Daliiay
         </Text>
