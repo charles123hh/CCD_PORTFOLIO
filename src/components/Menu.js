@@ -1,5 +1,7 @@
 import { Link, Box, Text } from "@chakra-ui/react";
 
+import Header from "../components/Header";
+
 import useMenu from "../hooks/useMenu";
 
 const Home = (props) => {
@@ -7,9 +9,7 @@ const Home = (props) => {
 
   return (
     <Box p={3} m={3} mb={0} pt={0}>
-        <Text className="menu" >
-            <Text ml={3} bg="black" as="span">Menu</Text>
-        </Text>
+        <Header bg="black" text="Menu" />
         <Text>
             [0]&nbsp;
             <Text as={Link} onClick={(event) => setMenu('0')}>Bio</Text>
