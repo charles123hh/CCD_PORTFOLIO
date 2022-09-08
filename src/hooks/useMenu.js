@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 const useMenu = () => {
     let navigate = useNavigate();
-    const setPage = (value) => {
+    const setMenu = (value) => {
         switch(value){
             case '0':
                 navigate({pathname: "/bio"});
@@ -28,7 +28,7 @@ const useMenu = () => {
         }
 
     }
-    return [setPage];
+    return [setMenu];
 }
 
 export default useMenu;
