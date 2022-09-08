@@ -5,7 +5,7 @@
 
 .menu {
    width: 100%;
-   border-bottom: 2px dashed;
+   border-bottom: 2px dashed rgba(255, 255, 255, .8);
    line-height: 0em;
    margin: 10px 0px 20px;
 }

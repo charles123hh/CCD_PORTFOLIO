@@ -3,17 +3,17 @@ import { Box, Text, InputGroup, InputLeftElement, Input } from "@chakra-ui/react
 import useMenu from "../hooks/useMenu";
 
 const ConsoleInput = (props) => {
-  const [setPage] = useMenu();
+  const [setMenu] = useMenu();
 
   const HandleKeyEvent = (event) => {
     if (event.keyCode === 13) {
-        setPage(event.target.value)
+        setMenu(event.target.value)
     }
   }
 
   return (
     <Box p={3} m={3}>
-         <Text >Please select an option to continue: </Text>
+         <Text >Select an option to continue 0 - 5 </Text>
           <InputGroup size="sm">
              <InputLeftElement
                pointerEvents='none'

@@ -2,8 +2,6 @@ import { Routes, Route } from "react-router-dom";
 
 import { Container } from "@chakra-ui/react";
 
-import "./Page.css"
-
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
