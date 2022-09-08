@@ -7,11 +7,17 @@ const styles = {
       color: mode('white', '#fff')(props),
       bg: mode('black', '#000')(props),
       fontFamily: 'CONSOLA',
-      fontSize: 14,
-      fontWeight: 'light'
+      fontWeight: 'normal',
+      opacity: 0.9,
+      fontSize: 14
+    },
+    '.menu': {
+        b: {
+            bg: mode('black', '#000')(props)
+        }
     },
     fontSizes: {
-        sm: 14,
+        sm: 14
     },
   }),
 };
