@@ -21,3 +21,9 @@
 input{
     box-shadow: none !important;
 }
+
+.highlight {
+    background-color: #EFF1FF !important;
+    color: #000 !important;
+
+}

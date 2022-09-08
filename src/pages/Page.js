@@ -5,7 +5,7 @@ import { Container } from "@chakra-ui/react";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
-import ConsoleInput from "../components/ConsoleInput";
+
 
 import Bio from "./Bio";
 import Expirience from "./Expirience";
@@ -13,6 +13,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import ILove from "./ILove";
 import PageNotFound from "./PageNotFound";
+import Console from "./Console";
 
 const Page = () => {
 
@@ -30,7 +31,7 @@ const Page = () => {
           <Route exact path="/i/love" element={<ILove />} />
           <Route path='/*' element={<PageNotFound />} />
         </Routes>
-        <ConsoleInput />
+        <Console />
       </Container>
   );
 };
