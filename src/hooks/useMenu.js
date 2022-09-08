@@ -1,34 +1,27 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const useMenu = () => {
     let navigate = useNavigate();
-    const setMenu = (value) => {
+    let location = useLocation();
+    const getPath = (value) => {
         switch(value){
-            case '0':
-                navigate({pathname: "/bio"});
-            break;
-            case '1':
-                navigate({pathname: "/expirience"});
-            break;
-            case '2':
-                navigate({pathname: "/projects"});
-            break;
-            case '3':
-                navigate({pathname: "/contact"});
-            break;
-            case '4':
-                navigate({pathname: "/i/love"});
-            break;
-            case '404':
-                navigate({pathname: "/404"});
-            break;
-            default :
-                navigate({pathname: "/"});
-            break;
+            case '0': return "/bio";
+            case '1': return "/expirience";
+            case '2': return "/projects";
+            case '3': return "/contact";
+            case '4': return "/i/love";
+            case '404': return "/404";
+            default :  return "/";
         }
-
     }
-    return [setMenu];
+    const setMenu = (value) => {
+         navigate({pathname: getPath(value)});
+    }
+    const isActive = (value) => {
+        return location.pathname === getPath(value);
+    }
+
+    return [setMenu, isActive];
 }
 
 export default useMenu;
