@@ -21,7 +21,8 @@ const useMenu = () => {
         return location.pathname === getPath(value);
     }
     const getCurrentLocation = () => {
-        return location.pathname;
+        let str = location.pathname;
+        return str.endsWith('/') ? str.slice(0, -1) : str;
     }
 
     return [setMenu, isActive, getCurrentLocation];

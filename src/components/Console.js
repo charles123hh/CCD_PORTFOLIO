@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 
-import ConsoleInput from "../components/ConsoleInput";
+import ConsoleInput from "./ConsoleInput";
 
 import useMenu from "../hooks/useMenu";
 
@@ -15,11 +15,13 @@ const Comsole = () => {
   }
 
   const handleKeyEvent_2 = (event) => {
-    if (event.target.value === "" &&  event.keyCode === 13) {
-        setMenu(event.target.value);
-    } else {
-        event.target.value = "";
+    if(event.keyCode === 13){
+      event.target.value = "";
+      setMenu(event.target.value);
     }
+    if (event.target.value === "") {
+      event.target.value = "";
+    } 
 }
 
   let console;
