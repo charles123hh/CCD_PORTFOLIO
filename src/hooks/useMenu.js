@@ -20,8 +20,12 @@ const useMenu = () => {
     const isActive = (value) => {
         return location.pathname === getPath(value);
     }
+    const getCurrentLocation = () => {
+        let str = location.pathname;
+        return str.endsWith('/') ? str.slice(0, -1) : str;
+    }
 
-    return [setMenu, isActive];
+    return [setMenu, isActive, getCurrentLocation];
 }
 
 export default useMenu;

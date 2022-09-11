@@ -4,16 +4,16 @@ import { Container } from "@chakra-ui/react";
 
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
-import Menu from "../components/Menu";
+import Console from "../components/Console";
 
 
+import Menu from "./Menu";
 import Bio from "./Bio";
 import Expirience from "./Expirience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import ILove from "./ILove";
 import PageNotFound from "./PageNotFound";
-import Console from "./Console";
 
 const Page = () => {
 
@@ -21,9 +21,8 @@ const Page = () => {
       <Container maxW="container.sm" pt={10}>
         <Banner />
         <Footer />
-        <Menu />
         <Routes>
-          <Route exact path="/" />
+          <Route exact path="/" element={<Menu />} />
           <Route exact path="/bio"  element={ <Bio />} />
           <Route exact path="/expirience" element={<Expirience />} />
           <Route exact path="/projects" element={<Projects />} />
