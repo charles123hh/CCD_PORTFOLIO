@@ -12,7 +12,7 @@ const Footer = (props) => {
 
   return (
     <Box p={3} m={3}>
-        <Text>Hello, I'm Charles, a developer based in the Philippines.</Text>
+        <Text>Hello, I'm Charles, an app developer based in the Philippines.</Text>
          <Text mt={2}><Link onClick={(event) => setMenu('')}>CCD</Link> [Version 06.10.1997.{calculateAge("1997-06-10")}]</Text>
         <Text>© {new Date().getFullYear()}  All Rights Reserved.</Text>
     </Box>
