@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const Contact = () => {
   return (
     <Box p={3} m={3} pt={0}>
-      <Header bg="black" text="Contact" />
+      <Header text="Contact" component="span" />
     </Box>
   );
 };

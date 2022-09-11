@@ -5,12 +5,17 @@
 
 .menu {
    width: 100%;
-   border-bottom: 2px dashed rgba(255, 255, 255, .8);
+   border-bottom: 2px dashed;
    line-height: 0em;
    margin: 1em 0px 2em;
 }
+
 .menu span{
    padding: 0 0.9em;
+}
+
+.menu b{
+  padding: 0 0.9em;
 }
 
 .link-underline {
@@ -20,10 +25,4 @@
 
 input{
     box-shadow: none !important;
-}
-
-.highlight {
-    background-color: #EFF1FF !important;
-    color: #000 !important;
-
 }

@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const Home = () => {
   return (
     <Box p={3} m={3} pt={0}>
-        <Header bg="black" text="Bio" />
+        <Header text="Bio" component="span"/>
         <Text as="b">
             Charles Daliiay
         </Text>
