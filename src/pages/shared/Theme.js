@@ -21,8 +21,8 @@ const styles = {
         }
     },
     '.highlight': {
-        color: mode('#141214 !important', '#EFF1FF !important')(props),
-        bg: mode('#EFF1FF !important', '#141214 !important')(props)
+        color: mode('#EFF1FF !important', '#141214 !important')(props),
+        borderColor: mode('#EFF1FF !important', '#141214 !important')(props)
     },
     fontSizes: {
         sm: 14

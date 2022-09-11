@@ -26,3 +26,7 @@
 input{
     box-shadow: none !important;
 }
+
+.highlight {
+  border-bottom: 2px solid;
+} 
