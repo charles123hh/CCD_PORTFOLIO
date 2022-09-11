@@ -25,7 +25,7 @@ const useMenu = () => {
         return str.endsWith('/') ? str.slice(0, -1) : str;
     }
 
-    return [setMenu, isActive, getCurrentLocation];
+    return [isActive, setMenu, getCurrentLocation];
 }
 
 export default useMenu;

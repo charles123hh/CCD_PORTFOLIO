@@ -23,9 +23,9 @@ const ConsoleInput = (props) => {
             <InputLeftAddon bg="" pl={0} pr={0} pointerEvents='none' border="none" fontSize='sm' 
               children={
                 <Text>
-                  <Text as="span" color="#39FF14">charles@dalisay</Text>
-                  <Text as="span">:</Text>
-                  <Text as="span" color="#1F51FF">/ccd/menu{props.location}$</Text>
+                  <Text as="b" color="#39FF14">charles@dalisay</Text>
+                  <Text as="b">:</Text>
+                  <Text as="b" color="#1F51FF">/ccd/menu{props.location}$</Text>
                 </Text>
               } />
             <Input ref={ref} onKeyDown={(event) => props.handleKeyEvent(event)} border="none"  fontSize="sm" readOnly={props.readOnly} placeholder={props.placeholder} />

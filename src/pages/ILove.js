@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const ILove = () => {
   return (
     <Box p={3} m={3} pt={0}>
-      <Header bg="black" text={"I ❤"} />
+      <Header text={"I ❤"} component="span"/>
     </Box>
   );
 };
