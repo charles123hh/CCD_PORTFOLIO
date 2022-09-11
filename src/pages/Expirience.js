@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const Experience = () => {
   return (
     <Box p={3} m={3} pt={0}>
-      <Header bg="black" text="Experience" />
+      <Header text="Experience" component="span" />
     </Box>
   );
 };
