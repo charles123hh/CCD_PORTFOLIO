@@ -20,8 +20,11 @@ const useMenu = () => {
     const isActive = (value) => {
         return location.pathname === getPath(value);
     }
+    const getCurrentLocation = () => {
+        return location.pathname;
+    }
 
-    return [setMenu, isActive];
+    return [setMenu, isActive, getCurrentLocation];
 }
 
 export default useMenu;

@@ -1,4 +1,4 @@
-import { Box, Text, InputGroup, InputLeftElement, Input } from "@chakra-ui/react";
+import { Box, Text, InputGroup, InputLeftAddon, Input } from "@chakra-ui/react";
 
 import { useRef, useEffect } from 'react';
 
@@ -19,14 +19,17 @@ const ConsoleInput = (props) => {
   return (
     <Box p={0} m={0}>
          <Text>{props.text}</Text>
-          <InputGroup size="sm">
-             <InputLeftElement
-               pointerEvents='none'
-               fontSize='sm'
-               children='~'
-             />
-             <Input ref={ref} onKeyDown={(event) => props.handleKeyEvent(event)} border="none"  fontSize="sm" readOnly={props.readOnly} placeholder={props.placeholder}/>
-           </InputGroup>
+          <InputGroup size='xs'>
+            <InputLeftAddon bg="" pl={0} pr={0} pointerEvents='none' border="none" fontSize='sm' 
+              children={
+                <Text>
+                  <Text as="span" color="#39FF14">charles@dalisay</Text>
+                  <Text as="span">:</Text>
+                  <Text as="span" color="#1F51FF">/ccd/menu{props.location}$</Text>
+                </Text>
+              } />
+            <Input ref={ref} onKeyDown={(event) => props.handleKeyEvent(event)} border="none"  fontSize="sm" readOnly={props.readOnly} placeholder={props.placeholder} />
+          </InputGroup>
     </Box>
   );
 };

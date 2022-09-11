@@ -21,9 +21,8 @@ const Page = () => {
       <Container maxW="container.sm" pt={10}>
         <Banner />
         <Footer />
-        <Menu />
         <Routes>
-          <Route exact path="/" />
+          <Route exact path="/" element={<Menu />} />
           <Route exact path="/bio"  element={ <Bio />} />
           <Route exact path="/expirience" element={<Expirience />} />
           <Route exact path="/projects" element={<Projects />} />
