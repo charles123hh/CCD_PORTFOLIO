@@ -7,7 +7,7 @@ const ILove = () => {
       <Header text={"I ❤"} component="span"/>
       <Text as="b">Maybe we can be friend!</Text>
       <br />
-      <Text>I <Text as="b" color="red">❤</Text> Cat's, Eating, Music, Photography, Problems :), Learn new things</Text>
+      <Text>I <Text as="span" color="red">❤</Text> Cat's, Eating, Music, Photography, Problems, to Learn new things</Text>
       <br />
       <Text >@ Hobbies</Text>
       <br />

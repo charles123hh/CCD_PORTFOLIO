@@ -9,10 +9,10 @@ import Console from "../components/Console";
 
 import Menu from "./Menu";
 import Bio from "./Bio";
-import Expirience from "./Expirience";
-import Projects from "./Projects";
-import Contact from "./Contact";
 import ILove from "./ILove";
+import Projects from "./Projects";
+import Posts from "./Posts";
+import Contact from "./Contact";
 import PageNotFound from "./PageNotFound";
 
 const Page = () => {
@@ -24,10 +24,10 @@ const Page = () => {
         <Routes>
           <Route exact path="/" element={<Menu />} />
           <Route exact path="/bio"  element={ <Bio />} />
-          <Route exact path="/expirience" element={<Expirience />} />
-          <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/i/love" element={<ILove />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/posts" element={<Posts />} />
+          <Route exact path="/contact" element={<Contact />} />
           <Route path='/*' element={<PageNotFound />} />
         </Routes>
         <Console />
