@@ -20,7 +20,7 @@
 
 .link-underline {
   text-decoration-line: underline !important;
-  text-decoration-style: wavy !important;
+  text-decoration-style: solid !important;
 }
 
 input{
