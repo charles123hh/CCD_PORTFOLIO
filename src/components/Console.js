@@ -41,7 +41,7 @@ const Comsole = () => {
   let console;
 
   if(activeMenu('')){
-    console = <ConsoleInput text="Select an option to continue 1 ~ 6" location={getCurrentLocation()} handleKeyEvent = {handleKeyEvent} placeholder={"ex. 1"}/>;
+    console = <ConsoleInput text="Select an option to continue 1 ~ 7" location={getCurrentLocation()} handleKeyEvent = {handleKeyEvent} placeholder={"ex. 1"}/>;
   } else {
     console = <ConsoleInput text="Press enter key to continue..." location={getCurrentLocation()} handleKeyEvent = {handleKeyEvent_2} />;
   }
