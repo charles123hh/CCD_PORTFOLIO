@@ -20,7 +20,7 @@
 
 .link-underline {
   text-decoration-line: underline !important;
-  text-decoration-style: wavy !important;
+  text-decoration-style: solid !important;
 }
 
 input{
@@ -28,5 +28,5 @@ input{
 }
 
 .highlight {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 } 

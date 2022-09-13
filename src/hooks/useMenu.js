@@ -5,11 +5,11 @@ const useMenu = () => {
     let location = useLocation();
     const getPath = (value) => {
         switch(value){
-            case '0': return "/bio";
-            case '1': return "/expirience";
-            case '2': return "/projects";
-            case '3': return "/contact";
-            case '4': return "/i/love";
+            case '1': return "/bio";
+            case '2': return "/i/love";
+            case '3': return "/projects";
+            case '4': return "/posts";
+            case '5': return "/contact";
             case '404': return "/404";
             default :  return "/";
         }
