@@ -8,7 +8,7 @@ import NotFound from './not-found';
 
 const App = () => {
    return (
-      <Container className={`sm`}>
+      <Container className={`sm mt-4`}>
          <Banner />
          <Message />
          <Routes>

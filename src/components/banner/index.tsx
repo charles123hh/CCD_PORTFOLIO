@@ -1,16 +1,18 @@
+import './banner.css';
+
 const Banner = () => {
    return (
-      <section>
-         <p className={`text-light`}>
+      <section className='mb-4'>
+         <pre className={`text-light`}>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\_/\
-         </p>
-         <p className={`text-light`}>
+            <br />
             &nbsp;&nbsp;&nbsp;&nbsp;____/&nbsp;o&nbsp;o&nbsp;\
-         </p>
-         <p className={`text-light`}>
+            <br />
             &nbsp;&nbsp;/~____&nbsp;&nbsp;=ø=&nbsp;/
-         </p>
-         <p className={`text-light`}>&nbsp;(______)__m_m)</p>
+            <br />
+            &nbsp;(______)__m_m)
+            <br />
+         </pre>
       </section>
    );
 };
