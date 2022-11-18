@@ -1,10 +1,10 @@
 import './menu.css';
 
 import Header from '../../components/header';
-import useMenu from "../../hooks/useMenu";
+import useMenu from '../../hooks/useMenu';
 
 const Menu = () => {
-   const {setMenu} = useMenu();
+   const { setMenu } = useMenu();
 
    return (
       <section className="mt-4">
