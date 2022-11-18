@@ -7,7 +7,7 @@ const Message = () => {
    };
 
    return (
-      <section>
+      <div>
          <p className={`text-light`}>
             Hello, I'm Charles, an app developer based in the Philippines.
          </p>
@@ -22,7 +22,7 @@ const Message = () => {
             </a>
             <br />© {new Date().getFullYear()} All Rights Reserved.
          </p>
-      </section>
+      </div>
    );
 };
 

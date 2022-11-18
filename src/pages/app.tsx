@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Banner from '../components/banner';
+import Console from '../components/console';
 import Container from '../components/container';
 import Message from '../components/message';
 
+import Menu from './menu';
 import NotFound from './not-found';
 
 const App = () => {
@@ -12,9 +14,10 @@ const App = () => {
          <Banner />
          <Message />
          <Routes>
-            <Route path={`/`} />
+            <Route path={`/`} element={<Menu />} />
             <Route path={`/*`} element={<NotFound />} />
          </Routes>
+         <Console />
       </Container>
    );
 };

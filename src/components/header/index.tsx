@@ -2,9 +2,9 @@ import './header.css';
 
 const Header = (props: any) => {
    return (
-      <section className={`header border-color-light`}>
+      <div className={`header border-color-light`}>
          <span className={`bg-dark ${props.className}`}>{props.text}</span>
-      </section>
+      </div>
    );
 };
 export default Header;

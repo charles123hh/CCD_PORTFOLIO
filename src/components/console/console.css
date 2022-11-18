@@ -1,0 +1,13 @@
+.console-input {
+   background: transparent !important;
+   border: none !important;
+   outline: none !important;
+}
+
+.green {
+   color: #39ff14;
+}
+
+.blue {
+   color: #1f51ff;
+}

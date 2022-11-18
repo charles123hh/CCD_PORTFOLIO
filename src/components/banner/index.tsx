@@ -2,8 +2,8 @@ import './banner.css';
 
 const Banner = () => {
    return (
-      <section className='mb-4'>
-         <pre className={`text-light`}>
+      <div className="mb-4">
+         <p className={`text-light`}>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\_/\
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;____/&nbsp;o&nbsp;o&nbsp;\
@@ -12,8 +12,8 @@ const Banner = () => {
             <br />
             &nbsp;(______)__m_m)
             <br />
-         </pre>
-      </section>
+         </p>
+      </div>
    );
 };
 
