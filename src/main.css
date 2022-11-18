@@ -211,7 +211,7 @@ p {
 }
 
 .p-5 {
-   padding: calc(1rem * 3);
+   padding: calc(1rem * 3) !important;
 }
 
 .pt-1 {
