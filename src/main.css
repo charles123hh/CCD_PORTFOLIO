@@ -24,59 +24,59 @@ body {
 }
 
 .text-light {
-   color: var(--white) !important;
+   color: var(--white);
 }
 
 .text-dark {
-   color: var(--black) !important;
+   color: var(--black);
 }
 
 .text-danger {
-   color: var(--red) !important;
+   color: var(--red);
 }
 
 .text-align-left {
-   text-align: center !important;
+   text-align: center;
 }
 
 .text-align-center {
-   text-align: center !important;
+   text-align: center;
 }
 
 .text-align-right {
-   text-align: center !important;
+   text-align: center;
 }
 
 .text-uppercase {
-   text-transform: uppercase !important;
+   text-transform: uppercase;
 }
 
 .text-lowercase {
-   text-transform: lowercase !important;
+   text-transform: lowercase;
 }
 
 .text-bold {
-   font-weight: 700 !important;
+   font-weight: 700;
 }
 
 .text-semi-bold {
-   font-weight: 600 !important;
+   font-weight: 600;
 }
 
 .text-italic {
-   font-style: italic !important;
+   font-style: italic;
 }
 
 .bg-light {
-   background-color: var(--white) !important;
+   background-color: var(--white);
 }
 
 .bg-dark {
-   background-color: var(--black) !important;
+   background-color: var(--black);
 }
 
 .bg-danger {
-   background-color: var(--red) !important;
+   background-color: var(--red);
 }
 
 .border-color-light {

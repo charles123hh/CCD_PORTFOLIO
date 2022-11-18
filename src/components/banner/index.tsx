@@ -1,5 +1,4 @@
 const Banner = () => {
-   console.log('wew 1');
    return (
       <section>
          <p className={`text-light`}>

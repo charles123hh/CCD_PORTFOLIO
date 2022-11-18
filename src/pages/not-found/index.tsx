@@ -3,7 +3,7 @@ import Header from '../../components/header';
 const NotFound = () => {
    return (
       <section>
-         <Header className={`bg-dark text-danger text-bold`} text={`404`} />
+         <Header className={`text-danger text-bold`} text={`404`} />
          <p
             className={`text-danger text-align-center text-uppercase text-bold`}
          >
