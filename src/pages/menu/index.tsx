@@ -1,5 +1,5 @@
 import './menu.css';
-
+import CV from '../../assets/CV.pdf';
 import Header from '../../components/header';
 import useMenu from '../../hooks/useMenu';
 
@@ -26,13 +26,13 @@ const Menu = () => {
             </a>
             <br />
             [4]&nbsp;
-            <a className={`link`} onClick={() => alert('CV')}>
-               CV
+            <a className={`link`} onClick={() => setMenu(4)}>
+               Contact
             </a>
             <br />
             [5]&nbsp;
-            <a className={`link`} onClick={() => setMenu(4)}>
-               Contact
+            <a className={`link text-light`} href={CV} target={`_blank`}>
+               CV
             </a>
          </p>
       </section>
