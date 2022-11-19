@@ -1,0 +1,32 @@
+@font-face {
+   font-family: 'CONSOLA';
+   src: local('CONSOLA'), url(./assets/fonts/CONSOLA.TTF) format('truetype');
+}
+
+* {
+   font-size: 14px;
+}
+
+html,
+body {
+   background-color: #141214;
+   font-family: 'CONSOLA';
+}
+
+p {
+   line-height: 1.7;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 10% 3% auto;
+}
+.link {
+   cursor: pointer !important;
+   text-decoration: none !important;
+   outline: none !important;
+}
+
+.link:hover {
+   text-decoration: underline !important;
+}

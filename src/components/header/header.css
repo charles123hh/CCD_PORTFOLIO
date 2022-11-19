@@ -1,0 +1,12 @@
+.header {
+   line-height: 0em !important;
+   width: 100%;
+   border-bottom: 2px dashed;
+   margin: 1em 0px 2em;
+}
+
+.header span {
+   line-height: 0em !important;
+   margin-left: 1em;
+   padding: 0 0.9em;
+}
