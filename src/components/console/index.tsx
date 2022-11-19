@@ -38,9 +38,20 @@ const Console = () => {
       <div>
          <p>
             <span className={'text-light'}>
-               {isActive(0)
-                  ? 'Select an option to continue 1 ~ 5'
-                  : 'Press enter key to continue...'}
+               {isActive(0) ? (
+                  'Select an option to continue 1 ~ 5'
+               ) : (
+                  <>
+                     <a
+                        className={`link text-warning text-bold`}
+                        onClick={() => setMenu(0)}
+                     >
+                        {'<'} Back
+                     </a>
+                     <br />
+                     Press enter key to continue...
+                  </>
+               )}
             </span>
             <br />
             <span className={`green`}>charles@dalisay</span>
