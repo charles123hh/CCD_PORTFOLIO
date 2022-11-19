@@ -4,13 +4,13 @@ import Header from '../../components/header';
 const Bio = () => {
    return (
       <section className={`mt-4`}>
-         <Header className={`text-light text-bold`} text={`Bio`} />
+         <Header className={`text-light`} text={`Bio`} />
          <p className={`text-light`}>
-            <span className={`text-bold`}>Charles Dalisay</span>
+            <span>Charles Dalisay</span>
             <br />
             Developer / Designer
          </p>
-         <p className={`text-bold text-light`}>@ Work</p>
+         <p className={`text-warning`}>@ Work</p>
          <p className={`text-light`}>
             Charles is a freelance and full-stack developer. He has a background
             in everything from web design to app development, and he's always on
@@ -20,7 +20,7 @@ const Bio = () => {
             If you're looking for someone to help you make your ideas come to
             life, reach out.
          </p>
-         <p className={`text-bold text-light`}>@ Timeline</p>
+         <p className={`text-warning`}>@ Timeline</p>
          <p className={`text-light grid-container`}>
             <span>1997</span>
             <span>~</span>
@@ -39,7 +39,7 @@ const Bio = () => {
             <span>
                Back-End developer at&nbsp;
                <a
-                  className={`link text-light text-bold`}
+                  className={`link text-info`}
                   href={`https://collabera.ph`}
                   target={`_blank`}
                >
@@ -51,7 +51,7 @@ const Bio = () => {
             <span>
                Full-Stack developer at&nbsp;
                <a
-                  className={`link text-light text-bold`}
+                  className={`link text-info`}
                   href={`https://xurpasenterprise.com`}
                   target={`_blank`}
                >

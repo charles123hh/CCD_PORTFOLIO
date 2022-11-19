@@ -1,6 +1,9 @@
 :root {
    --black: #141214;
    --white: #eff1ff;
+   --blue: #1f51ff;
+   --light-blue: #7d98fb;
+   --green: #39ff14;
    --red: #ff0000;
    --yellow: #ffff00;
 }
@@ -18,6 +21,18 @@ body {
 
 .text-dark {
    color: var(--black);
+}
+
+.text-primary {
+   color: var(--blue);
+}
+
+.text-info {
+   color: var(--light-blue);
+}
+
+.text-success {
+   color: var(--green);
 }
 
 .text-warning {
@@ -56,6 +71,10 @@ body {
    font-weight: 600;
 }
 
+.text-underline {
+   text-decoration: underline;
+}
+
 .text-italic {
    font-style: italic;
 }
@@ -66,6 +85,18 @@ body {
 
 .bg-dark {
    background-color: var(--black);
+}
+
+.bg-primary {
+   background-color: var(--blue);
+}
+
+.bg-info {
+   background-color: var(--light-blue);
+}
+
+.bg-success {
+   background-color: var(--green);
 }
 
 .bg-warning {
@@ -84,8 +115,20 @@ body {
    border-color: var(--black) !important;
 }
 
-.bg-warning {
-   background-color: var(--yellow);
+.border-color-primary {
+   background-color: var(--blue) !important;
+}
+
+.border-color-info {
+   border-color: var(--light-blue) !important;
+}
+
+.border-color-success {
+   border-color: var(--green) !important;
+}
+
+.border-color-warning {
+   border-color: var(--yellow) !important;
 }
 
 .border-color-danger {

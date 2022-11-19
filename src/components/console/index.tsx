@@ -43,7 +43,7 @@ const Console = () => {
                ) : (
                   <>
                      <a
-                        className={`link text-warning text-bold`}
+                        className={`link text-info`}
                         onClick={() => setMenu(0)}
                      >
                         {'<'} Back
@@ -54,9 +54,9 @@ const Console = () => {
                )}
             </span>
             <br />
-            <span className={`green`}>charles@dalisay</span>
+            <span className={`text-success`}>charles@dalisay</span>
             <span className={`text-light`}>:</span>
-            <span className={`blue`}>/ccd/menu{getCurrentLocation()}$</span>
+            <span className={`text-primary`}>/ccd/menu{getCurrentLocation()}$</span>
             <input
                type={`text`}
                className={`console-input text-light ml-2`}
