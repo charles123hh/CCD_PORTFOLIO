@@ -14,7 +14,7 @@ const Message = () => {
          <p className={`text-light`}>
             CCD&nbsp;
             <a
-               className={`text-light version`}
+               className={`link text-info`}
                href={`https://github.com/charles123hh/CCD_PORTFOLIO`}
                target={`_blank`}
             >

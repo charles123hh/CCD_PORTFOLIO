@@ -19,7 +19,7 @@ p {
 
 .grid-container {
    display: grid;
-   grid-template-columns: 10% 3% auto;
+   grid-template-columns: 65px 20px auto;
 }
 .link {
    cursor: pointer !important;
