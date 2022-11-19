@@ -4,13 +4,13 @@ import Header from '../../components/header';
 const Contact = () => {
    return (
       <section className={`mt-4`}>
-         <Header className={`text-light text-bold`} text={`Contact`} />
+         <Header className={`text-light`} text={`Contact`} />
          <p className={`text-light`}>
-            <span className={`text-bold`}>Let's Talk</span>
+            <span>Let's Talk</span>
             <br />
             We can't solve your problem if you don't talk about it.
          </p>
-         <p className={`text-bold text-light`}>@ On the web</p>
+         <p className={`text-warning`}>@ On the web</p>
          <p className={`text-light `}>
             <span>~ </span>
             <a
@@ -40,7 +40,7 @@ const Contact = () => {
             </a>
             <br />
          </p>
-         <p className={`text-bold text-light`}>@ Direct</p>
+         <p className={`text-warning`}>@ Direct</p>
          <p className={`text-light `}>
             <span>~ </span>
             <span>0995-657-6240</span>

@@ -3,13 +3,13 @@ import Header from '../../components/header';
 const ILove = () => {
    return (
       <section className={`mt-4`}>
-         <Header className={`text-light text-bold`} text={`I ❤`} />
+         <Header className={`text-light`} text={`I ❤`} />
          <p className={`text-light`}>
-            <span className={`text-bold`}>Maybe we can be friend!</span>
+            <span>Maybe we can be friend!</span>
             <br />I <span className={`text-danger`}>❤</span> cats, food, music,
             and learning new things. 
          </p>
-         <p className={`text-bold text-light`}>@ Hobbies</p>
+         <p className={`text-warning`}>@ Hobbies</p>
          <p className={`text-light grid-container`}>
             <span>Gaming</span>
             <span>~</span>

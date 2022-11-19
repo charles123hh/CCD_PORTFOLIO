@@ -8,7 +8,7 @@ const Menu = () => {
 
    return (
       <section className="mt-4">
-         <Header className={`text-light text-bold`} text={`Menu`} />
+         <Header className={`text-light`} text={`Menu`} />
          <p className={`text-light`}>
             [1]&nbsp;
             <a className={`link`} onClick={() => setMenu(1)}>
