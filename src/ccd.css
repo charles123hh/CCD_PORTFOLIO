@@ -2,6 +2,7 @@
    --black: #141214;
    --white: #eff1ff;
    --red: #ff0000;
+   --yellow: #ffff00;
 }
 
 html,
@@ -17,6 +18,10 @@ body {
 
 .text-dark {
    color: var(--black);
+}
+
+.text-warning {
+   color: var(--yellow);
 }
 
 .text-danger {
@@ -63,6 +68,10 @@ body {
    background-color: var(--black);
 }
 
+.bg-warning {
+   background-color: var(--yellow);
+}
+
 .bg-danger {
    background-color: var(--red);
 }
@@ -73,6 +82,10 @@ body {
 
 .border-color-dark {
    border-color: var(--black) !important;
+}
+
+.bg-warning {
+   background-color: var(--yellow);
 }
 
 .border-color-danger {
