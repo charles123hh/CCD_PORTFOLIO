@@ -22,13 +22,13 @@ const Console = () => {
       if (+event.keyCode !== 13) {
          return;
       }
+      if (!isActive(0)) {
+         event.target.value = '';
+      }
       if (+event.target.value === 5) {
          window.open(CV, '_blank');
          event.target.value = null;
          return;
-      }
-      if (!isActive(0)) {
-         event.target.value = '';
       }
       setMenu(+event.target.value);
       event.target.value = '';
@@ -42,10 +42,7 @@ const Console = () => {
                   'Select an option to continue 1 ~ 5'
                ) : (
                   <>
-                     <a
-                        className={`link text-info`}
-                        onClick={() => setMenu(0)}
-                     >
+                     <a className={`link text-info`} onClick={() => setMenu(0)}>
                         {'<'} Back
                      </a>
                      <br />
@@ -56,7 +53,9 @@ const Console = () => {
             <br />
             <span className={`text-success`}>charles@dalisay</span>
             <span className={`text-light`}>:</span>
-            <span className={`text-primary`}>/ccd/menu{getCurrentLocation()}$</span>
+            <span className={`text-primary`}>
+               /ccd/menu{getCurrentLocation()}$
+            </span>
             <input
                type={`text`}
                className={`console-input text-light ml-2`}
