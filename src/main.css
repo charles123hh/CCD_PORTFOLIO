@@ -21,6 +21,7 @@ p {
    display: grid;
    grid-template-columns: 65px 20px auto;
 }
+
 .link {
    cursor: pointer !important;
    text-decoration: none !important;
