@@ -1,4 +1,4 @@
-import Header from '../../components/header';
+import { Header } from '../../components/header';
 
 const Project = (props: any) => {
    return (

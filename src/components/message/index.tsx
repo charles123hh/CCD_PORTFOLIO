@@ -20,10 +20,10 @@ const Message = () => {
             >
                [Version 06.10.1997.{calculateAge('1997-06-10')}]
             </a>
-            <br />© {new Date().getFullYear()} All Rights Reserved.
+            <br />(c) {new Date().getFullYear()} All Rights Reserved.
          </p>
       </div>
    );
 };
 
-export default Message;
+export { Message };

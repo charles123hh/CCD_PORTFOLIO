@@ -7,4 +7,4 @@ const Header = (props: any) => {
       </div>
    );
 };
-export default Header;
+export { Header };
