@@ -1,6 +1,7 @@
 import './menu.css';
+import { Header } from '../../components/header';
+
 import CV from '../../assets/CV.pdf';
-import Header from '../../components/header';
 import useMenu from '../../hooks/useMenu';
 
 const Menu = () => {

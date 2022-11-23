@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Banner from '../components/banner';
-import Console from '../components/console';
-import Container from '../components/container';
-import Message from '../components/message';
+import { Banner } from '../components/banner';
+import { Console } from '../components/console';
+import { Container } from '../components/container';
+import { Message } from '../components/message';
 
 import Menu from './menu';
 import NotFound from './not-found';

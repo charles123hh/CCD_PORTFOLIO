@@ -1,5 +1,5 @@
 import './contact.css';
-import Header from '../../components/header';
+import { Header } from '../../components/header';
 
 const Contact = () => {
    return (

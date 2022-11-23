@@ -1,5 +1,5 @@
 import './bio.css';
-import Header from '../../components/header';
+import { Header } from '../../components/header';
 
 const Bio = () => {
    return (
